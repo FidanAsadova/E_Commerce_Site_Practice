@@ -1,0 +1,35 @@
+header {
+  padding: 26px 0;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  background-color: white;
+  .container {
+    .mainHeader {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .logo {
+        span {
+          font-size: 40px;
+          color: #81c408;
+          font-weight: 700;
+          font-family: Arial;
+        }
+      }
+      .icons {
+        display: flex;
+        gap: 40px;
+        .headerIcon {
+          color: #81c408;
+          cursor: pointer;
+          font-size: 30px;
+          &:hover {
+            color: #679d06;
+          }
+        }
+      }
+    }
+  }
+}
