@@ -1,5 +1,7 @@
-@import "./global";
-@import "../pages/header/header";
-@import "../components/navbar/navbar";
-@import "../components/swiper/swiper";
-@import "../pages/home/home";
+@use "./global" as *;
+@use "../pages/header/header" as *;
+@use "../components/navbar/navbar" as *;
+@use "../components/swiper/swiper" as *;
+@use "../pages/home/home" as *;
+@use "../components/tabs/tabs" as *;
+@use "../pages/home/productList" as *;
